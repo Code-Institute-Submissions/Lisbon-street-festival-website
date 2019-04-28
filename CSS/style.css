@@ -3,12 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700');
 
-div {
-    border:solid 0px;
-}
 
 body {
-    backgroun-color: #f7f7f7;
+    background-color: #f7f7f7;
+    margin:0;
 }
 
 /*-------------------header--------------*/
@@ -19,8 +17,6 @@ padding-top:10px;
 padding-bottom: 10px;
 min-height: 120px;
 margin: 0;
-position: absolute;
-z-index: 1;
 }
 
 .title {
@@ -40,6 +36,7 @@ z-index: 1;
     margin-top:25px;
     margin-bottom:10px;
     color:#222222;
+    text-transform:uppercase;
 }
 
 .header social {
@@ -169,8 +166,9 @@ hr {
 border: solid;
 background-color: #4FC4C9;
 color:#4FC4C9;
-height:3px;
+height:5px;
 width: 5%;
+border-radius:50%;
 }
 
 /*------------------images ----*/
@@ -202,6 +200,13 @@ img.imglogo {
 */
 
 /*------------------images ----*/
+
+/*------------------video-----------------*/
+
+.embed-responsive.embed-responsive-16by9 {
+    autoplay:false;
+}
+/*------------------video-----------------*/
 
 /*------------------------------------ nav ----*/
 
