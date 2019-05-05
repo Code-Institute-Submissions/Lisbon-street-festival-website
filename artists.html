@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" type="text/css" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" type="text/css"/> 
 </head>
 
 <body>
@@ -102,7 +104,7 @@
 
 
     <!---------------------- Section Featured artists start -------------------------->
-    <section class="container" id="Featured-artist-wrapper">
+    <section class="container mb-4 pt-4 pb-4" id="Featured-artist-wrapper">
         <div class="row">
             <div class="col-md-6 offset-3">
                 <h4 class="text-centered" style="text-align:center">Featured artists 2019</h4>
@@ -111,7 +113,8 @@
         <!---------------------- first row artists-------------------------->
         <div class="row">
             <div class="col-md-4  card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/bansky.jpg" alt="Bansky">
+                <a href="../images/bansky.jpg" data-toggle="lightbox" data-gallery="img.gallery">
+                <img class="card-img-top" src="../images/bansky.jpg" alt="Bansky" class="img-fluid img-thumbnail"></a>
                 <div class="card-body">
                     <h5 class="card-title">Bansky</h5>
                     <p class="card-text">Country > UK</p>
@@ -119,7 +122,8 @@
                 </div>
             </div>
             <div class="col-md-4  card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/bordalo.jpg" alt="Bordalo">
+                 <a href="../images/bordalo.jpg" data-toggle="lightbox" data-gallery="img.gallery">
+                 <img class="card-img-top" src="../images/bordalo.jpg" alt="Bordalo" class="img-fluid img-thumbnail"></a>
                 <div class="card-body">
                     <h5 class="card-title">Bordalo</h5>
                     <p class="card-text">Country > Portugal</p>
@@ -127,7 +131,8 @@
                 </div>
             </div>
             <div class="col-md-4  card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/cosmosarson.jpg" height="186px;" alt="Cosmo Sarson">
+                <a href="../images/cosmosarson.jpg" data-toggle="lightbox" data-gallery="img.gallery">
+                <img class="card-img-top" src="../images/cosmosarson.jpg" height="186px;" alt="Cosmo Sarson" class="img-fluid img-thumbnail"></a>
                 <div class="card-body">
                     <h5 class="card-title">Cosmo Sarson</h5>
                     <p class="card-text">Country > UK</p>
@@ -140,7 +145,8 @@
         <!----------------------second row -------------------------->
         <div class="row">
             <div class="col-md-4  card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/addfuel.jpeg" alt="Addfuel">
+                <a href="../images/addfuel.jpeg" data-toggle="lightbox" data-gallery="img.gallery">
+                <img class="card-img-top" src="../images/addfuel.jpeg" alt="Addfuel" class="img-fluid img-thumbnail"></a>
                 <div class="card-body">
                     <h5 class="card-title">Addfuek</h5>
                     <p class="card-text">Country > Portugal</p>
@@ -148,7 +154,8 @@
                 </div>
             </div>
             <div class="col-md-4  card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/bansky.jpg" alt="Bansky">
+                <a href="../images/bansky.jpg" data-toggle="lightbox" data-gallery="img.gallery">
+                <img class="card-img-top" src="../images/bansky.jpg" alt="Bansky" class="img-fluid img-thumbnail"></a>
                 <div class="card-body">
                     <h5 class="card-title">Bansky</h5>
                     <p class="card-text">Country > UK</p>
@@ -156,7 +163,8 @@
                 </div>
             </div>
             <div class="col-md-4  card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/bansky.jpg" alt="Bansky">
+                <a href="../images/bansky.jpg" data-toggle="lightbox" data-gallery="img.gallery">
+                <img class="card-img-top" src="../images/bansky.jpg" alt="Bansky" class="img-fluid img-thumbnail"></a>
                 <div class="card-body">
                     <h5 class="card-title">Bansky</h5>
                     <p class="card-text">Country > UK</p>
@@ -173,7 +181,7 @@
     <section class="container" id="Featured-videos-wrapper">
         <div class="row">
             <div class="col-md-6 offset-3">
-                <h3 class="text-centered subtitle" style="text-align:center">Video interviews 2019</h3>
+                <h4 class="text-centered" style="text-align:center">Video interviews</h4>
             </div>
         </div>
         <!---------------------- first row video-------------------------->
@@ -200,7 +208,7 @@
     <!---------------------- Section Featured Video interview end ----------------------------->
 
     <!---------------/sponsor section -------------->
-    <section class="container sponsor text-center">
+    <section class="container sponsor text-center mb-4 pt-4 pb-4">
         <div class="row">
             <div class="col-6 offset-3 text-center">
                 <h4 class="text-uppercase subtitle">Sponsored by</h4>
@@ -310,7 +318,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+        <script type="text/javascript" src="js/lightbox.js"></script>
 </body>
 
 </html>
