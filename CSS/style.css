@@ -7,6 +7,8 @@ body {
     background-color: #f7f7f7;
     margin:0;
     font-family: 'Abel', sans-serif;
+   /* background-color: #383d41;*/
+    color:white;
 }
 
 /*-------------------colors--------------*/
@@ -254,6 +256,8 @@ color:#4FC4C9;
 height:5px;
 width: 5%;
 border-radius:50%;
+margin:0;
+padding:o;
 }
 
 /*------------------images ----*/
@@ -296,7 +300,6 @@ img.imglogo {
 /*------------------testo paragrafi-----------------*/
 
 description {
-    font-family: Oswald;
     font-style: normal;
     font-weight: 300;
     font-size: 1.2rem;
@@ -517,14 +520,19 @@ margin-top: 50px;
 margin-bottom:10px;
 }
 
+
+.sponsor {
+    margin-top: 5px;
+}
+
 /*-------------------footer--------------*/
 
-footer  {
-background-color: #4FC4C9;
-padding-top:10px;
-padding-bottom: 10px;
-min-height: 120px;
-margin: 0;
+footer {
+    background-color: #4FC4C9;
+    padding-top: 20px !important;
+    padding-bottom: 10px;
+    min-height: 120px;
+    margin: 0;
 }
 
 footer ul {

@@ -14,41 +14,39 @@
 </head>
 
 <body>
-    <!---------------------- Header start -------------------------->
+       <!---------------------- Header start -------------------------->
 
     <!---------------------- Nav start -------------------------->
 
-    <header class="container-fluid style_header">
-        <div id="burghericon" class="row">
+    <header class="container-fluid style_header pt-10">
+    <!--------------wrapper row -------------------------->
+    <div class="container">
+        <div id="burghericon" class="row justify-content-center row align-items-center pt-10">
 
-            <!--Navbar-->
-            <div class="col-sm-4">
-                <nav class="navbar navbar-light amber lighten-4 mb-4">
+        
+    <!--Navbar-->
+        <div class="col-md-4 topmenu text-centere">
+            <nav class="navbar navbar-light amber lighten-4 mb-4">
+        
+                <!-- Collapse button -->
+                <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-toggler-icon"><span></span><span></span><span></span></div>
+            </button>
+        </div>
+        
+        <!-- title -->
+        <div class="col-md-4 topmenu align-middle text-centered">
+            <h1 class="text-centered title">Lisbon street art festival</h1>
+            <h2 class="text-centered subtitle">15 - 20 August 2019</h1>
+        </div>
 
-                    <!-- Collapse button -->
-                    <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="animated-icon1"><span></span><span></span><span></span></div>
-    </button>
-            </div>
-
-            <!-- title -->
-            <div class="col-sm-4">
-                <h1 class="title">Lisbon street art festival</h1>
-            </div>
-
-            <!-- social icons -->
-            <div class="col-sm-4">
+    <!-- social icons ----------------------------------->
+            <div class="col-md-4 topmenu align-middle text-centered">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fab fa-facebook-f"  aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
@@ -66,18 +64,17 @@
                 </ul>
             </div>
         </div>
-
-
-        <!-- Collapsible content -->
+           
+ <!-- Collapsible content -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent20">
 
-            <!-- Links -->
+  <!-- Links -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="EventsVenues">About the Festival</a>
+                    <a class="nav-link" href="about.html">About the Festival</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="artists.html">Featured artists</a>
@@ -87,14 +84,14 @@
                 </li>
             </ul>
             <!-- Links -->
-
-        </div>
+                </div>
         <!-- Collapsible content -->
-
-        </nav>
+             </nav>
         <!--/.Navbar-->
+          </div>
         </div>
     </header>
+    <!---------------------- Header end -------------------------->
 
     <!---------------/central section -------------->
 
@@ -114,7 +111,7 @@
 <section class="container-fluid homecallout">
     <div class="row justify-content-center">
             <div class="col-md-6 col-lg-3 text-center">
-                <h3 class="text-center">EVENTS</h3>
+                <h3 class="text-center">SUMMER EVENTS</h3>
             </div>
      </div>
      <div class="row">
@@ -143,12 +140,12 @@
 <!-------------------------Event calendar ------------------------------------->
         
 <section class="container-wrapper eventcalendar">
-    <div class="container-fluid event-content-container>
-        <div class="row justify-content-center row align-items-center pt-10">
-                <h2 class="event-heading text-center">Events</h2>
+    <div class="container-fluid event-content-container pl-10>
+        <div class="row justify-content-center row align-items-center pt-10 pl-5">
+                <h2 class="event-heading text-center">Festival Events Calendar</h2>
         </div>
             
-    <div class="event-content uppercase bg-secondary">
+    <div class="event-content uppercase bg-secondary pl-10">
         <div class="row mb-3 pt-3 pb-3 justify-content-center">
             <div class="col-sm-2 d-sm-none">
             </div>
@@ -231,7 +228,7 @@
 <!-------------------------/Event calendar ----------------------->      
 <!-------------------------sponsor section ----------------------->
 
-        <section class="container sponsor text-center">
+        <section class="container sponsor text-center mt-5">
             <div class="row">
                 <div class="col-6 offset-3 text-center">
                     <h4 class="text-uppercase subtitle">Sponsored by</h4>
@@ -240,7 +237,7 @@
 
             <div class="row">
                 <div class="col-6 offset-3 text-center">
-                    <hr>
+                    <hr class="text-center">
                 </div>
             </div>
 
@@ -274,10 +271,9 @@
 
         <!---------------------- Footer start -------------------------->
 
-        <footer>
-            <footer class="container-fluid">
-                <div id="footer-details" class="row">
-                    <div class="col-sm-4">
+         <footer class="container-fluid pt-20">
+                <div id="footer-details" class="row justify-content-center pt-10">
+                    <div class="col-sm-3 pt-20">
                         <h5 class="uppercase general-sub">Contacts</h5>
                         <ul class="contact-details">
                             <li class="list-inline-item">
@@ -293,33 +289,30 @@
                                 <span>info@lisbonstreetfestival.com</span>
                             </li>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-3 pt-20">
                         <h5 class="uppercase general-sub">About</h5>
                         <ul class="contact-details">
                             <li>
-                                <span>About the festival</span>
+                                <a target="_blank" href="index.html"><span>Home</span></a>
                             </li>
                             <li>
-                                <a target="_blank" href="Artists.html"><span>Featured artists</span></a>
+                                <a target="_blank" href="about.html"><span>About the festival</span></a>
                             </li>
                             <li>
-                                <span>Events and venues</span>
+                                <a target="_blank" href="artists.html"><span>Featured artists</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="EventsVenues.html"><span>Events and venues</span></a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-3 pt-20">
                         <h5 class="uppercase general-sub">Follow us</h5>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
                                 <a target="_blank" href="#">
                             <i class="fab fa-facebook-f"  aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
-                        </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="#">
-                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
                         </a>
                             </li>
                             <li class="list-inline-item">

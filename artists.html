@@ -12,45 +12,43 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Lightbox -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" type="text/css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" type="text/css" />
 </head>
 
 <body>
-    <!---------------------- Header start -------------------------->
+       <!---------------------- Header start -------------------------->
 
     <!---------------------- Nav start -------------------------->
 
-    <header class="container-fluid style_header">
-        <div id="burghericon" class="row">
+    <header class="container-fluid style_header pt-10">
+    <!--------------wrapper row -------------------------->
+    <div class="container">
+        <div id="burghericon" class="row justify-content-center row align-items-center pt-10">
 
-            <!--Navbar-->
-            <div class="col-sm-4">
-                <nav class="navbar navbar-light amber lighten-4 mb-4">
+        
+    <!--Navbar-->
+        <div class="col-md-4 topmenu text-centere">
+            <nav class="navbar navbar-light amber lighten-4 mb-4">
+        
+                <!-- Collapse button -->
+                <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-toggler-icon"><span></span><span></span><span></span></div>
+            </button>
+        </div>
+        
+        <!-- title -->
+        <div class="col-md-4 topmenu align-middle text-centered">
+            <h1 class="text-centered title">Lisbon street art festival</h1>
+            <h2 class="text-centered subtitle">15 - 20 August 2019</h1>
+        </div>
 
-                    <!-- Collapse button -->
-                    <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="animated-icon1"><span></span><span></span><span></span></div>
-    </button>
-            </div>
-
-            <!-- title -->
-            <div class="col-sm-4">
-                <h1 class="title">Lisbon street art festival</h1>
-            </div>
-
-            <!-- social icons -->
-            <div class="col-sm-4">
+    <!-- social icons ----------------------------------->
+            <div class="col-md-4 topmenu align-middle text-centered">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fab fa-facebook-f"  aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
@@ -68,17 +66,17 @@
                 </ul>
             </div>
         </div>
-
-
-        <!-- Collapsible content -->
+           
+ <!-- Collapsible content -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent20">
-            <!-- Links -->
+
+  <!-- Links -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About the Festival</a>
+                    <a class="nav-link" href="about.html">About the Festival</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="artists.html">Featured artists</a>
@@ -88,15 +86,14 @@
                 </li>
             </ul>
             <!-- Links -->
-
-        </div>
+                </div>
         <!-- Collapsible content -->
-
-        </nav>
+             </nav>
         <!--/.Navbar-->
+          </div>
         </div>
     </header>
-    <!---------------/header -------------->
+    <!---------------------- Header end -------------------------->
 
     <!-----------------------featured artists ---------------------------------------->
 
@@ -122,7 +119,7 @@
                 </div>
             </div>
             <div class="col-md-4  card" style="width: 18rem;">
-                 <a href="../images/bordalo.jpg" data-toggle="lightbox" data-gallery="img.gallery">
+                <a href="../images/bordalo.jpg" data-toggle="lightbox" data-gallery="img.gallery">
                  <img class="card-img-top" src="../images/bordalo.jpg" alt="Bordalo" class="img-fluid img-thumbnail"></a>
                 <div class="card-body">
                     <h5 class="card-title">Bordalo</h5>
@@ -189,8 +186,7 @@
             <div class="col-md-6">
                 <!-- 4:3 aspect ratio -->
                 <div controls="controls" class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="../video/bordalo_video.webm"
-                    frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <iframe class="embed-responsive-item" src="../video/bordalo_video.webm" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                 </div>
             </div>
@@ -214,10 +210,10 @@
                 <h4 class="text-uppercase subtitle">Sponsored by</h4>
             </div>
         </div>
-
+        <hr class="text-center">
         <div class="row">
             <div class="col-6 offset-3 text-center">
-                <hr>
+                <hr class="text-center">
             </div>
         </div>
         <div class="row">
@@ -249,77 +245,74 @@
 
     <!---------------------- Footer start -------------------------->
 
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Contacts</h5>
-                <ul class="contact-details">
-                    <li class="list-inline-item">
-                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                        <span>Avenida de Libertade 235</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fas fa-phone" aria-hidden="true"></i>
-                        <span>+334 345673456</span>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="far fa-envelope" aria-hidden="true"></i>
-                        <span>info@lisbonstreetfestival.com</span>
-                    </li>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
-                <ul class="contact-details">
-                    <li>
-                        <span>About the festival</span>
-                    </li>
-                    <li>
-                        <a target="_blank" href="Artists.html"><span>Featured artists</span></a>
-                    </li>
-                    <li>
-                        <span>Events and venues</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Follow us</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+    <footer class="container-fluid pt-20">
+                <div id="footer-details" class="row justify-content-center pt-10">
+                    <div class="col-sm-3 pt-20">
+                        <h5 class="uppercase general-sub">Contacts</h5>
+                        <ul class="contact-details">
+                            <li class="list-inline-item">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <span>Avenida de Libertade 235</span>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <span>+334 345673456</span>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="far fa-envelope" aria-hidden="true"></i>
+                                <span>info@lisbonstreetfestival.com</span>
+                            </li>
+                    </div>
+                    <div class="col-sm-3 pt-20">
+                        <h5 class="uppercase general-sub">About</h5>
+                        <ul class="contact-details">
+                            <li>
+                                <a target="_blank" href="index.html"><span>Home</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="about.html"><span>About the festival</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="artists.html"><span>Featured artists</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="EventsVenues.html"><span>Events and venues</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 pt-20">
+                        <h5 class="uppercase general-sub">Follow us</h5>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="#">
                             <i class="fab fa-facebook-f"  aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="#">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="#">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
 
     <!---------------------- Footer end -------------------------->
     <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-        <script type="text/javascript" src="js/lightbox.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
 </body>
 
 </html>
