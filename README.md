@@ -48,22 +48,22 @@ of the home page, below the newsletter.
 I can access most of these information from the home page itself, in the contact and sponsor section, following the callout section dedicated to the photo gallery. 
 
 ### Wireframes
-*[wireframe index.html mobile](https://www.dropbox.com/s/iarwbsz6q4i62o3/wireframeHomeMobile.jpg?dl=0)
-*[wireframe index.html desktop](https://www.dropbox.com/s/84526zvixloc586/wireframeHomeTabletDesktop.jpg?dl=0)
-*[wireframe featured artists page mobile](https://www.dropbox.com/s/8kbsvg40q395wil/wireframeArtistsMobile.jpg?dl=0)
-*[wireframe featured artists page desktop](https://www.dropbox.com/s/84526zvixloc586/wireframeHomeTabletDesktop.jpg?dl=0)
+* [wireframe index.html mobile](https://www.dropbox.com/s/iarwbsz6q4i62o3/wireframeHomeMobile.jpg?dl=0)
+* [wireframe index.html desktop](https://www.dropbox.com/s/84526zvixloc586/wireframeHomeTabletDesktop.jpg?dl=0)
+* [wireframe featured artists page mobile](https://www.dropbox.com/s/8kbsvg40q395wil/wireframeArtistsMobile.jpg?dl=0)
+* [wireframe featured artists page desktop](https://www.dropbox.com/s/84526zvixloc586/wireframeHomeTabletDesktop.jpg?dl=0)
 
 ### Technology used
-HTML5
-CSS3
-GIT
-GITHUB
-Cloud 9 IDE
-Google Chrome developer tools
-Bootstrap Framework - For css styling, grid and JavaScript - [Bootstrap v4.3.1](https://getbootstrap.com/docs/4.3/getting-started/download/)
-Javascript and JQuery are imported for the modals, the carousel and collapsible Bootstrap menu
-[Font Awesome](https://fontawesome.com/free) - For icons
-[Google Fonts](https://fonts.google.com/)
+- HTML5
+- CSS3
+- GIT
+- GITHUB
+- Cloud 9 IDE
+- Google Chrome developer tools
+- Bootstrap Framework - For css styling, grid and JavaScript - [Bootstrap v4.3.1](https://getbootstrap.com/docs/4.3/getting-started/download/)
+- Javascript and JQuery are imported for the modals, the carousel, the collapsible Bootstrap menu and the map
+-[Font Awesome](https://fontawesome.com/free)
+-[Google Fonts](https://fonts.google.com/)
 
 ### Testing
 * The adaptability of all pages to different viewport sizes was verified using Chrome developer tools, testing the functionality on different mobile and tablet devices 
